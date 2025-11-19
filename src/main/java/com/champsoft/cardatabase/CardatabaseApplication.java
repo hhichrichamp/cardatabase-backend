@@ -35,7 +35,8 @@ public class CardatabaseApplication implements CommandLineRunner {
         Owner owner3 = new Owner("Xavier", "Chad", "xavier.chad@example.com", "555-0303", "xchad", "pass9012");
         Owner owner4 = new Owner("Luca", "Claude", "luca.claude@example.com", "555-0404", "lclaude", "pass3456");
         Owner owner5 = new Owner("Thierry", "Versailles", "thierry.versailles@example.com", "555-0505", "tversailles", "pass7890");
-        ownerRepository.saveAll(Arrays.asList(owner1, owner2, owner3,owner4,owner5));
+        Owner owner6 = new Owner("Thomas", "Lucas", "thomas.lucas@example.com", "555-0505", "tlucas", "pass9876");
+        ownerRepository.saveAll(Arrays.asList(owner1, owner2, owner3,owner4,owner5, owner6));
 
 
         // Place your code here
